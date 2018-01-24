@@ -1,0 +1,489 @@
+
+
+/* navbar adding a suitable height and width*/
+#navbar{
+  background-color: white;
+  height: 80px;
+  width: 100%;
+}
+
+
+/*removing bullets  */
+#navbar ul{
+  list-style-type: none;
+}
+
+/*  displaying text horizontal*/
+#navbar li{
+  float: left;
+  margin-top: 30px;
+}
+
+/* removing the underline ,adding gray text color to anchor text */
+#navbar li a{
+  color: gray;
+  text-decoration: none;
+  padding-left: 100px;
+}
+
+/*  pink text color with a suitable font size*/
+#navbar_logo{
+  color: rgb(231, 59, 75);
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+/* section top holder */
+#section_top_holder{
+  background-color: rgb(39, 50, 68);
+  height: 200px;
+  padding-bottom: 320px;
+  position: absolute;
+
+}
+
+/*  headings h2 h3*/
+#headings_top_section{
+  background-color: rgb(39, 50, 68);
+  margin-left: 20%;
+  color: white;
+  padding-top: 10px;
+}
+
+/*  enhancing h2 size*/
+#headings_top_section h2{
+  font-size: 35px;
+}
+
+/*  enhancing h2 size*/
+#headings_top_section h5{
+  font-size: 25px;
+}
+
+
+
+
+
+
+/*  top section image as well as content*/
+#top_section_content{
+  background-color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right:20%;
+  padding-top: 0;
+  position: relative;
+}
+
+
+/*consist of top content image  */
+#top_section_image{
+  text-align: center;
+  margin-left: 40%;
+  border-radius: 50%;
+}
+
+/* contains the text of the top section content */
+#top_section_content p{
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*downoad  */
+#bottom_section_content{
+  margin-left: 33%;
+  padding-bottom: 80px;
+}
+
+/*  pink text below bottom section content*/
+#td_pink_font{
+  color: rgb(231, 59, 75);
+}
+
+
+
+/* social media links */
+#social_media_icons{
+  text-align: center;
+  background-color: rgb(234,235 ,239 );
+  height: 100px;
+  padding-left: 20%;
+  clear: both;
+  margin-top: 38%;
+  padding-top: 17%;
+}
+
+
+
+/*  */
+#social_media_icons td{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+/* adding background color with a proper height */
+#bg_color{
+  height: 100px;
+  background-color: gray;
+}
+
+
+
+
+/* services header */
+#services_top_header{
+  background-color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#services_top_header p{
+  color: rgb(181,185 , 194);
+}
+
+#services_top_header h2{
+  color: rgb(33,45 , 67);
+}
+
+/* services holder */
+#Services_content_holder{
+  height: 530px;
+}
+
+/* service heading */
+#services_mid_content{
+  padding-right: 100px;
+
+}
+
+/* service td   */
+#services_mid_content td{
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+/*  */
+.services_mid_text{
+  font-size: 20px;
+  color: rgb(40,54 ,81 );
+}
+
+/*  */
+.services_mid_text_bottom{
+  font-size: 15px;
+  color: rgb(113,117 ,129);
+}
+
+/* services button */
+#centered_button{
+  background-color: rgb(241, 60,77);
+  color: white;
+  width: 145px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 10%;
+  font-size: 18px;
+}
+
+/* progress_bar */
+#progress_bar{
+  background: rgb(234, 235, 239);
+  padding-left: 10px;
+  height: 300px;
+}
+
+/*  */
+#progress_bar td{
+  padding-left: 300px;
+  color: rgb(107, 119, 131);
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+
+/* work & experience */
+#work_section_holder{
+  height: 700px;
+  text-align: center;
+  padding-top: 10px;
+  font-size:20px;
+}
+
+/*  */
+#work_section_holder h4{
+  color: rgb(185, 189, 200);
+}
+
+/*  */
+#work_section_holder h2{
+  color: rgb(39, 57, 79);
+}
+
+/*  */
+#work_button{
+  background-color: rgb(234, 235, 237);
+  color: rgb(238, 62,75);
+  width: 120px;
+}
+
+#experience_button{
+  background-color: white;
+  color: rgb(36, 52,75);
+  width: 120px;
+}
+
+
+/* work  */
+#company_a_section{
+  background-color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 500px;
+  margin-top: 15px;
+  /* border: 3px solid red; */
+}
+
+/* table form alocated for the data  */
+#company_a_section table{
+  border: 3px solid gray;
+}
+
+/* td of the company a section */
+#company_a_section td{
+  width: 385px;
+}
+
+/*  */
+#company_a_section li{
+  list-style-type: none;
+  padding:10px;
+}
+
+/* enhanced A */
+#enlarged_a{
+  color: rgb(184, 191, 199);
+  font-size: 70px;
+}
+
+/* p text style */
+#company_section_a p{
+  color: rgb(112, 116, 119);
+  font-size: 22px;
+}
+
+
+#company_section_b{
+  margin-top: 10px;
+}
+
+
+/*  counter */
+#counter{
+  height: 100px;
+  background-color: rgb(234, 235, 239);
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+
+.aligned_smile_icon{
+  padding-left: 197px;
+  padding-top: 20px;
+}
+
+/*  span text*/
+.text_a_colored{
+  color: rgb(187, 86, 100);
+  padding-left: 30px;
+}
+
+/*  */
+#text_a_colored_left{
+  padding-right:
+}
+
+.counter_aligned{
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 25px;
+  color: rgb(36, 55, 78);
+}
+
+#counter p{
+  color: rgb(142, 143, 147);
+  float:left;
+  padding-left: 155px;
+}
+
+
+
+
+/* projects */
+#project_holder{
+  height: 1100px;
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(193, 196, 205);
+  font-size: 25px;
+}
+
+#project_holder h2{
+  color: rgb(39, 57, 79);
+  font-size: 26px
+}
+
+
+/* left top image */
+#project_left_top{
+  float: left;
+  width: 50%;
+  height: 800px;
+  padding-top: 10px;
+}
+
+
+#project_right_top{
+  float: right;
+  width: 50%;
+  height: 800px;
+  padding-top: 10px;
+}
+
+/* adding a suitable height and margin*/
+#coding_languages_icons{
+  height: 100px;
+  margin-top: 800px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+}
+
+/* aligning the coding languages icons */
+#coding_languages_icons td{
+  padding-left: 40px;
+}
+
+
+
+/*  contact*/
+#Contact_holder{
+  position: relative;
+  background-color: rgb(39, 50, 68);
+  height: 350px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+
+
+
+/*  contact form*/
+#contact_form{
+  position: absolute;
+  height: 380px;
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: white;
+}
+
+
+
+/* contact names-email */
+#contact_form input{
+  background-color: rgb(234,235 ,239 );
+  width: 600px;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+/*  */
+#contact_form  textarea{
+  padding-left: 10px;
+  background-color: rgb(234,235 ,239 );
+  border: none;
+}
+
+/*  */
+#contact_form  button{
+  margin-right: 65%;
+  color: rgb(189, 75, 101);
+  font-size: 20px;
+  border: none;
+  background-color: white;
+}
+
+
+
+/*  */
+#social_media_bottom_icons{
+  padding-top: 13%;
+  background-color: rgb(234, 235, 239);
+  height: 140px;
+  padding-left: 20%;
+}
+
+
+/*  */
+#social_media_bottom_icons h3{
+  color: rgb(111, 115, 126);
+  font-size: 18px;
+  padding-left: 300px;
+}
+
+
+
+/*  */
+#social_media_bottom_icons td{
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.underline_text{
+  border: 2px solid rgb(242, 242, 242);
+  padding: 10px;
+}
+
+
+/*  */
+#button_holder{
+  height: 100px;
+  padding-top: 10px;
+}
+
+/*  */
+#send_icon{
+  padding-right: 20px;
+}
+
+/*  company b text */
+#text_coloured_b{
+  color: rgb(114, 117, 126);
+  font-size: 22px;
+}
+
+/* pink icon abover jared doe */
+#pink_icon{
+  background-color: rgb(237, 62, 77);
+  width: 50px;
+  color: rgb(255, 217, 224);
+  font-size: 20px;
+  text-align: center;
+  height: 45px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+/*  reducing the height of placement of the arrow*/
+#arrow_down{
+  padding-left: 15px;
+  margin-top: -10px;
+}

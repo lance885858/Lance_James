@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>home Page</title>
+
+  <!--This links my html page to my external css stylesheet-->
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <!-- This link enables the browser to extract icons from w3schools font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <header>
+    <!--  A white background navbar consist of an unordered list ,to display my information within the navbar.It will consist of dummy hyperliks-->
+    <nav id="navbar">
+      <ul>
+        <li id="navbar_logo"><b>Logo</b></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Experience.&.Education</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">References</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main section for top content -->
+  <section id="section_top_holder">
+
+    <!-- consist of a h1 and h3 for the top section -->
+    <section id="headings_top_section">
+      <h2>Jared Doe</h2>
+      <h5>UI/UX Designer</h5>
+
+      <div id="pink_icon">
+        <p>Hi</p>
+      </div>
+    </section>
+
+
+
+    <!-- consist of a centered text as well as a border radious image -->
+    <section id="top_section_content">
+      <div>
+      <!-- consist of the down arrow above jared doe -->
+      <i id="arrow_down" class="fa fa-caret-down" style="font-size:25px;color: rgb(237, 62, 77);"></i>
+      </div>
+      <img id="top_section_image" src="images\Jared_doe.jpg" alt="" width="200px" height="200px">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+      <!-- and extended content attached to the top section content ,i inserted this within a table form -->
+      <div id="bottom_section_content">
+        <table>
+          <td id="td_pink_font">Download my resume</td>
+          <td>/ View my work Experience</td>
+        </table>
+      </div>
+
+    </section>
+    <!--  the end of the top section content-->
+
+
+  </section>
+  <!-- the end of the main top section holder -->
+
+  <!--  social media icons listed within a table form-->
+  <section id="social_media_icons">
+    <table>
+      <td><i class="fa fa-facebook" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-twitter" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-linkedin" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-github-alt" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-dribbble" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-behance" style="font-size:25px;color:gray"></i></td>
+    </table>
+  </section>
+
+  <div id="Services_content_holder">
+    <!--  -->
+    <div id="services_top_header">
+      <h2>Services</h2>
+      <p>I offer these on a freelance bases</p>
+
+      <!--  -->
+      <div id="services_mid_content">
+        <table>
+          <tr>
+            <td><i class="fa fa-file-text" style="font-size:25px;color:red"></i></td>
+            <td><i class="fa fa-code" style="font-size:25px;color:red"></i></td>
+            <td><i class="fa fa-laptop" style="font-size:25px;color:red"></i></td>
+          </tr>
+
+          <tr>
+            <td class="services_mid_text">Print & Branding</td>
+            <td class="services_mid_text">Development</td>
+            <td class="services_mid_text">UI/UX DESIGN</td>
+          </tr>
+
+          <tr>
+            <td class="services_mid_text_bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </td>
+            <td class="services_mid_text_bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </td>
+            <td class="services_mid_text_bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </td>
+          </tr>
+        </table>
+
+        <!-- button -->
+        <button id="centered_button" type="button" name="button">Get a Quote</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="progress_bar">
+    <table>
+      <!-- 1st row -->
+      <tr>
+        <td>HTML/CSS</td>
+        <td>UI/UX</td>
+      </tr>
+
+      <!-- 1st bar -->
+      <tr>
+        <td><progress value="70" max="100" width="200px;"></progress></td>
+        <td><progress value="97" max="100" width="200px;"></progress></td>
+      </tr>
+
+      <!-- second row -->
+      <tr>
+        <td>JQuery</td>
+        <td>Photoshop</td>
+      </tr>
+
+      <!-- second bar -->
+      <tr>
+        <td><progress value="90" max="100" width="200px;"></progress></td>
+        <td><progress value="100" max="100" width="200px;"></progress></td>
+      </tr>
+
+      <!--  3rd row-->
+      <tr>
+        <td>SASS</td>
+        <td>Illustrator</td>
+      </tr>
+
+      <!-- 3rd bar -->
+      <tr>
+        <td><progress value="85" max="100" width="200px;"></progress></td>
+        <td><progress value="95" max="100" width="200px;"></progress></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- work experience and education -->
+  <div id="work_section_holder">
+    <h2>Work Experience & Education</h2>
+    <h4>I keep learning</h4>
+
+    <!--  -->
+    <div id="work_and_education">
+      <button id="work_button" type="button" name="button"> <i class="fa fa-briefcase" style="font-size:25px;color:rgb(238, 62,75);"></i> Work</button>
+      <button id="experience_button"type="button" name="button"> <i class="fa fa-bank" style="font-size:25px;color:rgb(36, 52,75);"></i> Experience </button>
+    </div>
+
+    <!-- company section holder -->
+    <div id="company_a_section">
+
+      <!-- company a inserted within a table -->
+      <div id="company_section_a">
+        <table>
+          <tr>
+
+            <!-- first row of company a  -->
+            <td>
+              <p><span id="enlarged_a">A</span> <br>Company A</p>
+            </td>
+
+            <!-- second row of company a -->
+            <td>
+              <li><span id="text_a_colored_left">Company A</span> <span class="text_a_colored">2014-Presents</span></li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </li>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- company b inserted within a table -->
+      <div id="company_section_b">
+        <table>
+          <tr>
+            <!--  first row of company b-->
+            <td>
+              <p><span id="enlarged_a">B</span> <br><span id="text_coloured_b">Company B</span></p>
+            </td>
+
+            <!-- second row of company b  -->
+            <td>
+              <li>Company B <span class="text_a_colored">2013-2014</span></li>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </li>
+            </td>
+
+          </tr>
+        </table>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!--  within a table is listed the counter tally ,consist of the number attached to th icon-->
+  <section id="counter">
+    <table>
+
+      <tr>
+        <td class="aligned_smile_icon" class="counter_aligned"><i class="fa fa-smile-o" style="font-size:25px;color:rgb(238, 62,75);"></i></td>
+        <td class="counter_aligned">45</td>
+
+        <td class="aligned_smile_icon" class="counter_aligned"><i class="fa fa-trophy" style="font-size:25px;color:rgb(238, 62,75);"></i></td>
+        <td class="counter_aligned">122</td>
+
+        <td class="aligned_smile_icon" class="counter_aligned"><i class="fa fa-dribbble" style="font-size:25px;color:rgb(238, 62,75);"></i></td>
+        <td class="counter_aligned">580</td>
+
+        <td class="aligned_smile_icon" class="counter_aligned"><i class="fa fa-calendar" style="font-size:25px;color:rgb(238, 62,75);"></i></td>
+        <td class="counter_aligned">10</td>
+      </tr>
+
+    </table>
+
+    <!-- acts as a figcaption for the text above -->
+    <p>Happy Customers</p>
+    <p>Completed Projects</p>
+    <p>Dribbble Followers</p>
+    <p>Years spent developing</p>
+
+  </section>
+
+  <section id="project_holder">
+    <h2>Projects</h2>
+    <p>Here is a showcase of some of my proudest work achieved</p>
+
+    <!-- this image will display on the top left of the browser -->
+    <div id="project_left_top">
+      <img src="images\the_art_of_boxes.jpg" alt="" width="320px" height="280px">
+      <p><span class="underline_text">The art of the box</span></p>
+
+      <img src="images\snowflakes.jpg" alt="" width="320px" height="280px">
+      <p><span class="underline_text">Out There</span></p>
+
+    </div>
+
+    <!-- this image will display on the top right of the browser -->
+    <div id="project_right_top">
+      <img src="images\photography.jpg" alt="" width="320px" height="280px">
+      <p><span class="underline_text">City Scapes</span></p>
+
+      <img src="images\graphs_and_charts.jpg" alt="" width="320px" height="280px">
+      <p><span class="underline_text">Graphs and Charts</span></p>
+    </div>
+
+    <!--  consist of the many coding languages withn a table form-->
+    <div id="coding_languages_icons">
+      <table>
+        <td><img src="images\wordpress_logo.png" alt="" width="180px" height="100px"></td>
+        <td><img src="images\sass_logo.PNG" alt="" width="180px" height="100px"></td>
+        <td><img src="images\jquery_logo.PNG" alt="" width="180px" height="100px"></td>
+        <td><img src="images\bootstrap_logo.PNG" alt="" width="180px" height="100px"></td>
+      </table>
+    </div>
+  </section>
+
+  <section id="Contact_holder">
+    <h2>Send a message</h2>
+    <h4>I will get back to you as soon as possible</h4>
+
+    <div id="contact_form">
+      <!-- contact-email input box -->
+      <input type="text" placeholder="Name">
+      <input type="text" placeholder="Email">
+
+      <!-- comment box -->
+      <textarea name="name" rows="8" cols="83" placeholder="Message"></textarea>
+
+      <div id="button_holder">
+        <span id="send_icon"><i class="fa fa-send" style="font-size:25px;color:rgb(209, 79, 89);"></i></span> <button type="button" name="button"> Send</button>
+      </div>
+      
+    </div>
+  </section>
+
+  <!--  social media icons listed within a table form-->
+  <section id="social_media_bottom_icons">
+
+    <h3><i class="fa fa-envelope-o" style="font-size:25px;color:rgb(188, 79,100)"></i> info@jareddoe.com</h3>
+
+    <table>
+      <td><i class="fa fa-facebook" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-twitter" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-linkedin" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-github-alt" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-dribbble" style="font-size:25px;color:gray"></i></td>
+      <td><i class="fa fa-behance" style="font-size:25px;color:gray"></i></td>
+    </table>
+  </section>
+
+</body>
+</html>
